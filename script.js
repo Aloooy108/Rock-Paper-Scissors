@@ -64,7 +64,7 @@ function game(rounds){
     else if (count<0)console.log("You lost");
     else console.log("It was a draw");
 }
-game(3);
+game(prompt("How many rounds do you want to play"));
 
 //function to capitalize first letter.
 // function capitalize(str){
